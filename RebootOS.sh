@@ -11,17 +11,17 @@
 # When you need to reboot PC with another OS, just double click on it
 #
 # Customizing:  grub-reboot 4 | In this line the number 4 represents grub list id for my grub config
-# 				      Change this to your correspondent grub entry number for preferred OS
+# 				Change this to your correspondent grub entry number for preferred OS
 #
-# Option:		    Can be launched by command via terminal.
-#				        Move your script file to /usr/bin folder and just type RebootOS.sh
+# Option:		Can be launched by command via terminal.
+#				Move your script file to /usr/bin folder and just type RebootOS.sh
 #
-# Option: 		  gksudo can be used instead of sudo for graphical interface about password entering
+# Option: 		gksudo can be used instead of sudo for graphical interface about password entering
 #
-# Option:   	  It can also be improved about asking "Which OS do you want to start?"
-# 					    with user input options for PC's with multiple operating systems installed.
+# Option:   	It can also be improved about asking "Which OS do you want to start?"
+# 				with user input options for PC's with multiple operating systems installed.
 #
-# Option:	      List of entries in grub file might be listed in someway.
+# Option:	    List of entries in grub file might be listed in someway.
 #
 # Example:
 # echo "Which OS do you want to start?"
